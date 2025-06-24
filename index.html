@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Alisson Lopez Portfolio</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome!</h1>
+        <h1>I'm Alisson Lopez</h1>
+        <p>Junior CS Student | Aspiring Web Developer</p>
+        <a href="#contact" class="btn-primary">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="IMG_9838.jpg" alt="Alisson Lopez smiling" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm passionate about tech, design, and building accessible user experiences.</p>
+    <ul>
+      <li>Skills: HTML, CSS, JavaScript, Java</li>
+      <li>Education: St. John's University, CS Major</li>
+      <li>Interests: UI/UX, accessibility, storytelling</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Rx360 (Placeholder)</h3>
+      <p>Smart medication management concept using IoT.</p>
+    </div>
+    <div class="project">
+      <h3>Responsive Portfolio</h3>
+      <p>This portfolio itself—showcasing my skills and design sense.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out by filling out the form or connecting with me directly:</p>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/manjpvez" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <!-- Contact Info and QR Code Side by Side -->
+    <div class="contact-flex">
+
+      <!-- Left: Email and GitHub -->
+      <div class="contact-info">
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:alisson.s.lopez63@gmail.com">alisson.s.lopez63@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/alissonslopez" target="_blank">github.com/alissonslopez</a></li>
+        </ul>
+      </div>
+
+      <!-- Right: QR Code -->
+      <div class="qr-container">
+        <p><strong>LinkedIn:</strong><br />Scan to connect</p>
+        <img src="IMG_9845.jpg" alt="LinkedIn QR Code" class="qr-code" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Alisson Lopez</p>
+  </footer>
+
+</body>
+</html>
